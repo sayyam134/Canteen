@@ -1,7 +1,7 @@
 										COLOR PALLETE
-1) Red
-2) Yellow
-3) White
+1) Red :- B82626
+2) Yellow :- E9D94B
+3) White :- FFFFFF
 
    									USER PANEL
     										SCREENS
