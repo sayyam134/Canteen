@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
           Container(
             height: 50,
             color: Colors.yellowAccent,
-            child: Center(child: Text("Khao Pet Bhar Ke..")),
+            child: const Center(child: Text("Khao Pet Bhar Ke..")),
           ),
           Padding(
             padding:
@@ -36,14 +36,14 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           ElevatedButton(
               onPressed: () {},
-              child: Text("Continue as....",style: TextStyle(color: Colors.white),),
+              child: const Text("Continue as....",style: TextStyle(color: Colors.white),),
               style: ButtonStyle(
 
                   backgroundColor: MaterialStateColor.resolveWith(
                       (states) => Colors.redAccent),)),
 
-          Padding(
-            padding: const EdgeInsets.only(top: 50),
+          const Padding(
+            padding: EdgeInsets.only(top: 50),
             child: Text("Terms & Condition, Policy"),
           )
         ],
