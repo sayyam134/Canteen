@@ -1,3 +1,4 @@
+import 'package:canteen/Firebase/GoogleLogin.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -35,7 +36,9 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                GoogleLogin().signInWithGoogle(context);
+              },
               child: const Text("Continue as....",style: TextStyle(color: Colors.white),),
               style: ButtonStyle(
 
